@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap|Raleway&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+.tipp{
+    background: #8D1328;
+    height: 95%;
+}
+.nav-link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 99.7%;
+    color: white !important;
+}
+.nav-link:hover{
+    color: grey !important;
+}
+.p1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140.783px;
+    line-height: 99.7%;
+    /* or 190px */
+    text-transform: uppercase;    
+    color: #7F1225;
+    z-index: -10;
+}
+.section-1 .container{
+    margin-top: -4.5%;
+    background-color: white !important;
+    z-index: 20;
+}
+.jp{
+    margin-left: -9%;
+    margin-right: -9%;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.sect-1p{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8D1328;
+    text-transform: capitalize;
+}
+.q1{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #686868;
+}
+.q2{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #686868;
+}
+.q3{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #A3A3A3;
+}
+.imd{
+    margin-top: 40%;
+}
+.p12{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;    
+    color: #828282;
+    margin-left: -9%; 
+}
+.imd2{
+    margin-bottom: 9%;
+    margin-top: -5%;
+}
