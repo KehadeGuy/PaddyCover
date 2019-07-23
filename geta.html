@@ -21,7 +21,8 @@
     <div class="container-fluid p-0 tipp">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand ml-5" href="index.html"><img src="img/Group11log2.png" alt="complog" width="30%;"></a>
+                <a class="navbar-brand ml-5" href="index.html"><img src="img/Group11log2.png" alt="complog"
+                        width="30%;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,15 +50,81 @@
                     <hr>
                     <br>
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <div class="d-flex flex-column">
-                                <p class="t1">complete the following steps and would have access to a quotation for your insurance</p>
-                                
-                                
-                            </div>     
-                        </div>
-                        <div class="col-md-2">
-                           
+                                <p class="t1">complete the following steps and would have access to a quotation for your
+                                    insurance</p>
+                                <div class="row">
+                                    <div class="col-md-5 mt-4">
+                                        <div class="d-flex flex-row">
+                                            <img src="img/Group3arc.png" alt="arc" width="5%;" height="3%;"
+                                                class="mt-1">
+                                            <p class="pg1 ml-3">COMPREHENSIVE VEHICLE COVER</p>
+                                        </div>
+                                        <div class="d-flex flex-row mt-3">
+                                            <img src="img/Group2arc2.png" alt="arc" width="5%;" height="3%;"
+                                                class="mt-1">
+                                            <p class="pg2 ml-3">THIRD PARTY VEHICLE COVER</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-7 mt-4">
+                                        <div class="d-flex flex-row">
+                                            <p class="pg1 ml-3">Are you a returning customer?</p>
+                                        </div>
+                                        <div class="d-flex flex-row mt-3 ml-3">
+                                            <form action="">
+                                                <input type="radio" name="status" id="undergr"
+                                                    onclick="underpost();"><span class="tet ml-2">Yes</span>
+                                                <input type="radio" name="status" id="postgr" onclick="underpost();"
+                                                    class="ml-5"><span class="tet ml-2">No, I am new</span>
+                                                <br><br>
+                                                <div id="understuds" style="visibility:hidden">
+                                                    <label for="RegNumb" class="form3">Vehicle Registration
+                                                        Number:</label>
+                                                    <input type="text" name="regNumb" id="RegNumb"
+                                                        class="form-control mb-5 frim" required style="width:250%;"
+                                                        placeholder="Enter Vehicle Registration Number">
+
+                                                </div>
+                                                <div id="poststuds" style="visibility:hidden" class="second">
+                                                    <label for="RegNumb1" class="form3">Vehicle Registration
+                                                        Number:</label>
+                                                    <input type="text" name="regNumb1" id="RegNumb1"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Enter Vehicle Registration Number">
+                                                    <label for="PolicyNumb" class="form3">Policy Number:</label>
+                                                    <input type="text" name="policyNumb" id="PolicyNumb"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Policy Number">
+                                                    <label for="VehiClass" class="form3">Vehicle Class:</label>
+                                                    <input type="text" name="vehiClass" id="VehiClass"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Vehicle Class">
+                                                    <label for="VehiMake" class="form3">Vehicle Make:</label>
+                                                    <input type="text" name="vehiMake" id="VehiMake"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Vehicle Make">
+                                                    <label for="VehiModel" class="form3">Vehicle Model:</label>
+                                                    <input type="text" name="vehiModel" id="VehiModel"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Vehicle Model">
+                                                    <label for="userPhone" class="form3">Phone Number:</label>
+                                                    <input type="text" name="UserPhone" id="userPhone"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="Phone Number">
+                                                    <label for="userMail" class="form3">E-mail:</label>
+                                                    <input type="mail" name="UserMail" id="userMail"
+                                                        class="form-control mb-3 frim" required style="width:250%;"
+                                                        placeholder="email">
+
+                                                </div>
+                                                <button type="submit" id="butt" style="visibility:hidden">Confirm & Proceed</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -91,6 +158,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+
+    <script>
+        function underpost() {
+
+            if (document.getElementById('undergr').checked) {
+                document.getElementById('understuds').style.visibility = "visible";
+                document.getElementById('poststuds').style.visibility = "hidden";
+                document.getElementById('butt').style.visibility = "visible";
+
+            } else {
+                document.getElementById('poststuds').style.visibility = "visible";
+                document.getElementById('understuds').style.visibility = "hidden";
+                document.getElementById('butt').style.visibility = "visible";
+            }
+        }
+
+    </script>
 </body>
 
 </html>

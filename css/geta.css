@@ -84,3 +84,67 @@ body{
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
 }
+.pg1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #8D1328;
+    
+}
+.pg2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #828282;
+}
+.tet{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #828282;
+}
+.second {
+    margin-top: -100px;
+}
+.form3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    color: #8D1328;
+}
+.frim{
+    border: 0.788344px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 3.94172px;
+}
+#butt{
+    background: #8D1328;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1902px;
+    line-height: 21px;
+    border-radius: 7.88344px;
+    padding: 5px 10px;
+}
