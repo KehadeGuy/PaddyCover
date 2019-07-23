@@ -54,17 +54,15 @@ body{
     text-transform: capitalize;
 }
 .t1{
-    font-family: 'Asap';
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #686868;
-}
-.imd{
-    margin-top: 90%;
-    margin-left: 50%;
+    font-weight: normal;
+    font-size: 15.5492px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #6E6E6E;
 }
 .p12{
     font-family: 'Poppins';
@@ -75,19 +73,11 @@ body{
     color: #828282;
     margin-left: -9%; 
 }
+
 .imd2{
     margin-bottom: 9%;
     margin-top: -5%;
     margin-left: 50%;
-}
-.q23{
-    font-family:' Asap';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    
-    color: #686868;
 }
 .btn{
     background: #8D1328;
