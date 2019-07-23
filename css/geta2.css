@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+.tipp{
+    background: #8D1328;
+    height: 95%;
+}
+.nav-link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 99.7%;
+    color: white !important;
+}
+.nav-link:hover{
+    color: grey !important;
+}
+.p1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140.783px;
+    line-height: 99.7%;
+    /* or 190px */
+    text-transform: uppercase;    
+    color: #7F1225;
+    z-index: -10;
+}
+.section-1 .container{
+    margin-top: -4.5%;
+    background-color: white !important;
+    z-index: 20;
+}
+.jp{
+    margin-left: -9%;
+    margin-right: -9%;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.sect-1p{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8D1328;
+    text-transform: capitalize;
+}
+.t1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5492px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #6E6E6E;
+}
+.p12{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;    
+    color: #828282;
+    margin-left: -9%; 
+}
+
+.imd2{
+    margin-bottom: 9%;
+    margin-top: -5%;
+    margin-left: 50%;
+}
+.btn{
+    background: #8D1328;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+.pg1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #8D1328;
+    
+}
+.pg2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #828282;
+}
+.tet{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    
+    color: #828282;
+}
+.second {
+    margin-top: -100px;
+}
+.form3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    color: #8D1328;
+}
+.frim{
+    border: 0.788344px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 3.94172px;
+}
+#butt{
+    background: #8D1328;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1902px;
+    line-height: 21px;
+    border-radius: 7.88344px;
+    padding: 5px 10px;
+}
+.gt2{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #828282;
+}
+.qot{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #828282;
+}
+.q2{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    
+    color: #828282;
+}
+.q3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 63px;
+    /* or 81% */
+    letter-spacing: -1.13654px;
+    
+    color: #8D1328;
+}
+.pay{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.2533px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #4F4F4F;
+}
+.pay1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px; 
+    color: #828282;
+}
+.sp1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 27px; 
+    color: #828282;
+}
+.radios{
+    background: #FFFFFF;
+    border: 0.491718px solid #CDCDCD;
+    box-sizing: border-box;
+    box-shadow: -5.93886px 5.93886px 11.8777px rgba(0, 0, 0, 0.1);
+    border-radius: 5.93886px;
+}
+.radio{
+    background: #8D1328;
+    box-shadow: -5.93886px 5.93886px 11.8777px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-position: 100%;
+}
