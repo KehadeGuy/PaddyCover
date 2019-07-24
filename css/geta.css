@@ -148,3 +148,14 @@ body{
     border-radius: 7.88344px;
     padding: 5px 10px;
 }
+#myForm select { 
+    width: 200px;
+}
+    
+#myForm select:focus {
+    width:auto; 
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

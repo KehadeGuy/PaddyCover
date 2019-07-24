@@ -94,3 +94,7 @@ body{
     box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

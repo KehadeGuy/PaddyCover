@@ -97,3 +97,7 @@ body{
     margin-top: -5%;
     margin-left: 50%;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
