@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap|Raleway&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+.ser{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #3A3A3A;
+    margin-right: 5px;
+}
+.ser:hover{
+    color: maroon !important;
+}
+.site-content{
+    margin-top: 13%;
+    margin-left: -8%;
+}
+/* .overla{
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-size: cover;
+    height: 20px;
+    
+} */
+.site-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    /* color: #3A3A3A; */
+    margin-left: 150px;
+    color: white;
+
+}
+.under{
+    background: #FF8000;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.bgcol{
+    background: linear-gradient(180deg, #8D1328 0%, #7C081C 100%);
+    background-size: cover;
+    min-height: 100vh;
+}
+.form-control{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 130px;
+    color: #FFFFFF;
+}
+.p3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    margin-top: 20%;
+}
+.owo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FD6C1D;
+    
+}

@@ -132,7 +132,7 @@ body{
     color: #8D1328;
 }
 .frim{
-    border: 0.788344px solid #EEEEEE;
+    border: 1.688344px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 3.94172px;
 }
@@ -148,14 +148,46 @@ body{
     border-radius: 7.88344px;
     padding: 5px 10px;
 }
-#myForm select { 
-    width: 200px;
-}
-    
-#myForm select:focus {
-    width:auto; 
+select { 
+    width: 300%;
 }
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #828282;
+
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #828282;
+
+}
+option{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 19px;
+}
+option{
+    /* color: #828282; */
+    color: blue;
+}
+  
