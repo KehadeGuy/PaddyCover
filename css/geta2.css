@@ -193,9 +193,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14.2533px;
-    line-height: 21px;
-    /* identical to box height */
-    
+    line-height: 21px;    
     color: #4F4F4F;
 }
 .pay1{
@@ -220,12 +218,6 @@ body{
     box-sizing: border-box;
     box-shadow: -5.93886px 5.93886px 11.8777px rgba(0, 0, 0, 0.1);
     border-radius: 5.93886px;
-}
-.radio{
-    background: #8D1328;
-    box-shadow: -5.93886px 5.93886px 11.8777px rgba(0, 0, 0, 0.1);
-    color: white;
-    background-position: 100%;
 }
 .img-fluid {
     max-width: 100%;

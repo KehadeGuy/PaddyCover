@@ -93,33 +93,33 @@
                                         <div class="col-md-12">
                                             <div class="d-flex flex-row">
                                                 <div class="col-md-4">
-                                                    <div class="radios">
-                                                        <label for="monthly" class="form-check-label">
+                                                    <div class="radios" id="monthly">
+                                                        <label for="monthlY" class="form-check-label " id="lab">
                                                             <b class="pay">Pay Monthly</b> <br> <b class="pay1">#0,000.00/</b>
                                                             <span class="sp1">Per month</span>
                                                         </label>
                                                         <input type="radio" class="form-check-input mt-3 ml-5"
-                                                            name="subscription" id="monthly" value="monthly">
+                                                            name="subscription" id="monthlY" value="monthly" onclick="clickpost();">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <div class="radios">
-                                                        <label for="quarterly" class="form-check-label">
+                                                    <div class="radios" id="quarterly">
+                                                        <label for="quarterlY" class="form-check-label pay-text" id="lab">
                                                             <b class="pay">Pay Quarterly</b> <br> <b class="pay1">#0,000.00/</b>
                                                             <span class="sp1">Per month</span>
                                                         </label>
                                                         <input type="radio" class="form-check-input mt-3 ml-5"
-                                                            name="subscription" id="quarterly" value="quarterly">
+                                                            name="subscription" id="quarterlY" value="quarterly" onclick="clickpost();">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <div class="radios">
-                                                        <label for="bi-annually" class="form-check-label">
+                                                    <div class="radios" id="bi-annually">
+                                                        <label for="bi-annuallY" class="form-check-label pay-text" id="lab">
                                                             <b class="pay">Pay Bi-Annually</b> <br><b class="pay1">#0,000.00/</b>
                                                             <span class="sp1">Per month</span>
                                                         </label>
                                                         <input type="radio" class="form-check-input mt-3 ml-5"
-                                                            name="subscription" id="bi-annually" value="bi-annually">
+                                                            name="subscription" id="bi-annuallY" value="bi-annually" onclick="clickpost();">
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,6 +163,63 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+
+        <script>
+            function clickpost() {
+            
+                if (document.getElementById('monthlY').checked) {
+                    document.getElementById('monthly').style.backgroundColor = "#8D1328";
+                    document.getElementsByClassName('pay')[0].style.color = "#ffffff";
+                    document.getElementsByClassName('pay1')[0].style.color = "#ffffff";
+                    document.getElementsByClassName('sp1')[0].style.color = "#ffffff";
+                    document.getElementsByClassName('pay')[1].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[1].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[1].style.color = "#828282";
+                    document.getElementsByClassName('pay')[2].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[2].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[2].style.color = "#828282";
+                    document.getElementById('quarterly').style.backgroundColor = "";
+                    document.getElementById('bi-annually').style.backgroundColor = "";
+                    
+    
+                } else if (document.getElementById('quarterlY').checked)  {
+                    document.getElementsByClassName('pay')[1].style.color = "#ffffff";
+                    document.getElementsByClassName('pay1')[1].style.color = "#ffffff";
+                    document.getElementsByClassName('sp1')[1].style.color = "#ffffff";
+                    document.getElementsByClassName('pay')[0].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[0].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[0].style.color = "#828282";
+                    document.getElementsByClassName('pay')[2].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[2].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[2].style.color = "#828282";
+                    document.getElementById('quarterly').style.backgroundColor = "#8D1328";
+                    document.getElementById('bi-annually').style.backgroundColor = "";
+                    document.getElementById('monthly').style.backgroundColor = "";
+                    
+                }
+                else if (document.getElementById('bi-annuallY').checked){
+                    document.getElementsByClassName('pay')[2].style.color = "#ffffff";
+                    document.getElementsByClassName('pay1')[2].style.color = "#ffffff";
+                    document.getElementsByClassName('sp1')[2].style.color = "#ffffff";
+                    document.getElementsByClassName('pay')[1].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[1].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[1].style.color = "#828282";
+                    document.getElementsByClassName('pay')[0].style.color = "#4F4F4F";
+                    document.getElementsByClassName('pay1')[0].style.color = "#828282";
+                    document.getElementsByClassName('sp1')[0].style.color = "#828282";
+                    document.getElementById('bi-annually').style.backgroundColor = "#8D1328";
+                    document.getElementById('monthly').style.backgroundColor = "";
+                    document.getElementById('quarterly').style.backgroundColor = "";
+                }
+                else{
+                    document.getElementById('bi-annually').style.backgroundColor = "";
+                    document.getElementById('monthly').style.backgroundColor = "";
+                    document.getElementById('quarterly').style.backgroundColor = "";
+
+                }
+            }
+    
+        </script>
 </body>
 
 </html>

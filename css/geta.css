@@ -90,9 +90,7 @@ body{
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
     letter-spacing: 0.05em;
-    
     color: #8D1328;
     
 }
@@ -102,7 +100,6 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
     letter-spacing: 0.05em;
     
     color: #828282;
@@ -113,22 +110,19 @@ body{
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
     letter-spacing: 0.05em;
     
     color: #828282;
 }
 .second {
-    margin-top: -100px;
+    margin-top: -150px;
 }
 .form3{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 12px;
-    line-height: 18px;
-    /* identical to box height */
-    
+    line-height: 18px;    
     color: #8D1328;
 }
 .frim{
@@ -161,8 +155,6 @@ select {
     font-weight: normal;
     font-size: 13px;
     line-height: 19px;
-    /* identical to box height */
-
     color: #828282;
 
     opacity: 1; /* Firefox */
@@ -174,8 +166,6 @@ select {
     font-weight: normal;
     font-size: 13px;
     line-height: 19px;
-    /* identical to box height */
-
     color: #828282;
 
 }

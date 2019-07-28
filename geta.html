@@ -85,7 +85,10 @@
                                                     <input type="text" name="regNumb" id="RegNumb"
                                                         class="form-control mb-5 frim" required style="width:250%;"
                                                         placeholder="Enter Vehicle Registration Number">
-
+                                                        <a href="geta2.html">
+                                                            <button type="button" id="butt" style="width:250%;" class="mt-2">Confirm &
+                                                                Proceed</button>
+                                                        </a>
                                                 </div>
                                                 <div id="poststuds" style="visibility:hidden" class="second">
                                                     <label for="RegNumb1" class="form3">Vehicle Registration
@@ -161,13 +164,11 @@
                                                     <input type="mail" name="UserMail" id="userMail"
                                                         class="form-control mb-3 frim" required style="width:250%;"
                                                         placeholder="email@example.com">
-
+                                                        <a href="geta2.html">
+                                                            <button type="button" id="butt" style="width:250%;" class="mt-2">Confirm &
+                                                                Proceed</button>
+                                                        </a>
                                                 </div>
-                                                <a href="geta2.html">
-                                                    <button type="button" id="butt" style="visibility:hidden; width:250%;" class="mt-2">Confirm &
-                                                        Proceed</button>
-                                                </a>
-
                                             </form>
                                         </div>
                                     </div>
@@ -213,12 +214,12 @@
             if (document.getElementById('undergr').checked) {
                 document.getElementById('understuds').style.visibility = "visible";
                 document.getElementById('poststuds').style.visibility = "hidden";
-                document.getElementById('butt').style.visibility = "visible";
+                // document.getElementById('butt').style.visibility = "visible";
 
             } else {
                 document.getElementById('poststuds').style.visibility = "visible";
                 document.getElementById('understuds').style.visibility = "hidden";
-                document.getElementById('butt').style.visibility = "visible";
+                // document.getElementById('butt').style.visibility = "visible";
             }
         }
 
